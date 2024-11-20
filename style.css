@@ -1,0 +1,40 @@
+a {
+    color: darkblue;
+    font-size: 30px;
+}
+
+h1 {
+    color:maroon;
+    text-align: center;
+    font-family: 'Papyrus', Tahoma, Verdana, sans-serif;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+h2 {
+    background-color: coral;
+    text-align: center;
+    font-family: 'Papyrus', Tahoma, Verdana, sans-serif;
+}
+
+p {
+    background-color: rgb(255, 161, 30);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    background-color: rgb(255, 161, 30);;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    background-color: rgb(255, 161, 30);;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+body {
+    background-color:navajowhite;
+}
