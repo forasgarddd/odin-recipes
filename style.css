@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: darkblue;
     font-size: 30px;
@@ -7,6 +12,11 @@ h1 {
     color:maroon;
     text-align: center;
     font-family: 'Papyrus', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 5px solid rgb(200, 69, 69);
+    border-top: 5px solid rgb(200, 69, 69);
+    margin-bottom: 10px;
 }
 
 img {
@@ -20,7 +30,27 @@ h2 {
     font-family: 'Papyrus', Tahoma, Verdana, sans-serif;
 }
 
-p {
+p,
+ul,
+ol {
+    background-color: rgb(255, 161, 30);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipes {
+    box-sizing: border-box;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 16px;
+    list-style: none;
+}
+
+li {
+    padding: 8px;
+}
+/* p {
     background-color: rgb(255, 161, 30);
     font-family: 'Courier New', Courier, monospace;
 }
@@ -33,7 +63,7 @@ ul {
 ol {
     background-color: rgb(255, 161, 30);;
     font-family: 'Courier New', Courier, monospace; 
-}
+} */
 
 body {
     background-color:navajowhite;
